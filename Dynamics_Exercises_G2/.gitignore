@@ -1,0 +1,9 @@
+# .NET
+*.obj
+*.dll
+*.exe
+*.log
+*.vscode/
+bin/
+obj/
+bin/
