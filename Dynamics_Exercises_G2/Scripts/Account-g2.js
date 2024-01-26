@@ -21,6 +21,7 @@ var GeneralHelperFunctions = {
     SetContentToWebResource: function (executionContext) {
         try {
             var formContext = executionContext.getFormContext();
+            debugger;
             var wrControl = formContext.getControl("WebResource_IncidentList_G2");
             if (wrControl !== null) {
                 wrControl.getContentWindow().then(
